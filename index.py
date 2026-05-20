@@ -4,7 +4,7 @@ from sign_in import show_sign_in_page
 from sign_up import show_sign_up_page
 from fire_base import db
 
-st.set_page_config(page_title="GLStwite", layout="centered", icon="🚀")
+st.set_page_config(page_title="GLStwite", layout="centered", page_icon="🚀")
 
 if "page" not in st.session_state:
     st.session_state.page = "landing"
