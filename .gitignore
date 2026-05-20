@@ -1,0 +1,8 @@
+# Ignore the Firebase private key file
+firebase-key.json
+
+# Ignore common Python junk files
+__pycache__/
+*.pyc
+.venv/
+.streamlit/config.toml
